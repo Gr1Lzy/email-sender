@@ -11,6 +11,3 @@ import java.util.List;
 public interface MessageRepository extends ElasticsearchRepository<Message, String> {
     List<Message> findAllByMessageStatus(MessageStatus messageStatus);
 }
-
-
-

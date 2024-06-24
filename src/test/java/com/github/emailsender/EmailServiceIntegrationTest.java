@@ -26,7 +26,7 @@ import static org.mockito.Mockito.*;
         "SMTP_USERNAME=your_smtp_username",
         "SMTP_PASSWORD=your_smtp_password"
 })
-public class EmailServiceIntegrationTest {
+class EmailServiceIntegrationTest {
 
     @Autowired
     private EmailServiceImpl emailService;

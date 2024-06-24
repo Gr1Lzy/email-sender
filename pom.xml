@@ -97,17 +97,10 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.0</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.github.emailsender.EmailSenderApplication</mainClass>
-                        </manifest>
-                    </archive>
+                    <mainClass>com.github.emailsender.EmailSenderApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

@@ -12,4 +12,3 @@ public class KafkaConfig {
         return new NewTopic("email-topic", 1, (short) 1);
     }
 }
-
